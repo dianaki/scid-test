@@ -99,7 +99,7 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-.quote-block {
+.quote__block {
   padding: 131px 45px;
 }
 
@@ -158,7 +158,7 @@ h1, h2, h3, h4 {
     display: none;
   }
 
-  .quote-block.block {
+  .quote__block.block {
     margin-left: 2px;
     padding: 42px 36px;
   }
@@ -254,7 +254,7 @@ h1, h2, h3, h4 {
      margin: 0 -20px;;
    }
 
-   .quote-block.block {
+   .quote__block.block {
      margin-top: 17px;
      max-height: 319px;
      padding: 131px 100px;
