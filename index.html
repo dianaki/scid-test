@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Unipro</title>
+  <script src="scripts/index.js" defer></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
@@ -13,7 +14,7 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="container">
+      <div class="container header__container">
         <div class="header__logo">
           <a href="/" class="logo">
             <img src="images/logo.png" alt="UNIPRO logo" class="logo__img">
@@ -41,6 +42,7 @@
             </li>
           </ul>
         </nav>
+        <button class="hamburger__menu"></button>
       </div>
     </header>
     <main class="maincontent">
@@ -54,29 +56,56 @@
             </div>
           </div>
           <div class="block quote-block">
-            <h3 class="block__title title-center">котировки</h3>
+            <h3 class="block__title title-small">котировки</h3>
           </div>
         </div>
         <div class="info__container">
-          <div class="block news-block">
+          <div class="block news__block">
             <h3 class="block__title">Новости</h3>
           </div>
-          <div class="block info-block">
+          <div class="block  info__block info__block--active">
             <h3 class="block__title">Раскрытие информации</h3>
+            <div class="block__desc">
+              <img src="images/block__img.jpg" alt="вид сверху на ГРЭС" class="block__img">
+              <div class="block__text">
+                <p>Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+                <p>Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+              </div>
+            </div>
           </div>
-          <div class="block info-block">
+          <div class="block info__block">
             <h3 class="block__title">Закупки и продажи</h3>
+            <div class="block__desc">
+              <img src="images/block__img.jpg" alt="вид сверху на ГРЭС" class="block__img">
+              <div class="block__text">
+                <p>Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+                <p>Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+              </div>
+            </div>
           </div>
-          <div class="block info-block">
-            <h3 class="block__title title-center">Блок 3</h3>
+          <div class="block info__block">
+            <h3 class="block__title">Блок 3</h3>
+            <div class="block__desc">
+              <img src="images/block__img.jpg" alt="вид сверху на ГРЭС" class="block__img">
+              <div class="block__text">
+                <p>Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+                <p>Размещен Ежеквартальный отчет эмитента за 1 квартал 2019 года</p>
+              </div>
+            </div>
           </div>
         </div>
+        <form class="form__container">
+          <div class="form__block"></div>
+          <input type="search" class="form__input">
+          <div class="form__block"></div>
+          <button type="submit" class="form__button"></button>
+        </form>
       </div>
     </main>
     <footer class="footer">
       <div class="container">
         <div class="footer__container">
-          
+
         </div>
       </div>
     </footer>
