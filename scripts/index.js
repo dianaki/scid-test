@@ -5,7 +5,7 @@ const deleteActiveClass = () => {
 }
 
 infoBlock.forEach((btn, index) => btn.addEventListener('click', () => {
-  if(btn.classList.contains('info__block--active')) {
+  if (btn.classList.contains('info__block--active')) {
     deleteActiveClass();
   } else {
     deleteActiveClass();
